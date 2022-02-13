@@ -1,20 +1,20 @@
 const Actions = {
 
-    RequestItems : "/app/request/component/items" , 
-    ResponseItems: "/app/response/component/items" , 
-    ErrorItems : "/app/error/component/items", 
+    RequestItems : "/app/request/googleapi_credentials/items" , 
+    ResponseItems: "/app/response/googleapi_credentials/items" , 
+    ErrorItems : "/app/error/googleapi_credentials/items", 
 
-    RequestSave : "/app/request/component/save", 
-    ResponseSave : "/app/response/component/save" , 
-    ErrorSave : "/app/error/component/save" , 
+    RequestSave : "/app/request/googleapi_credentials/save", 
+    ResponseSave : "/app/response/googleapi_credentials/save" , 
+    ErrorSave : "/app/error/googleapi_credentials/save" , 
 
-    RequestItem : "/app/request/component/item" , 
-    ResponseItem : "/app/response/component/item" , 
-    ErrorItem : "/app/error/component/item" , 
+    RequestItem : "/app/request/googleapi_credentials/item" , 
+    ResponseItem : "/app/response/googleapi_credentials/item" , 
+    ErrorItem : "/app/error/googleapi_credentials/item" , 
 
-    RequestDelete : "/app/request/component/delete", 
-    ResponseDelete  : "/app/response/component/delete" , 
-    ErrorDelete : "/app/error/component/delete"
+    RequestDelete : "/app/request/googleapi_credentials/delete", 
+    ResponseDelete  : "/app/response/googleapi_credentials/delete" , 
+    ErrorDelete : "/app/error/googleapi_credentials/delete"
 }
 
 

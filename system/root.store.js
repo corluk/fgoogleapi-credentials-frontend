@@ -6,10 +6,10 @@ import { fork } from "redux-saga/effects"
 
 function* RootSaga () {
 
-    fork(ComponentSaga)
+    fork(Saga)
 }   
 const sagaMiddleware = createSagaMiddleware()
 const RootStore = createStore(Store.Reducer,applyMiddleware(sagaMiddleware))
-sagaMiddleware.run(Saga)
+sagaMiddleware.run(RootSaga)
 
 export default RootStore

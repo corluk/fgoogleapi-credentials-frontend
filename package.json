@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "node_modules/.bin/webpack serve",
+    "dev-build" : "node_modules/.bin/babel src --out-dir lib --watch",
     "build": "node_modules/.bin/babel src --out-dir lib"
   },
   "keywords": [],
